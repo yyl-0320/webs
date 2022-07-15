@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.head {
+    width: 100%;
+    height: 18%;
+    vertical-align:top
+}
+.logo{
+    margin: 50px;
+}
+.html span{
+    float: right;
+    margin: 25px;
+    padding: 25px;
+}
+.html a:hover span {
+    background-color: aqua;
+    margin: 20px;
+}
+a.word0:link {
+    color: rgb(244, 237, 237);
+    text-decoration: none;
+}
+
+a.word0:visited {
+    color: rgb(250, 247, 247);
+}
+
+a.word0:hover {
+    color: rgb(255, 249, 249);
+}
+
+a.word0:active {
+    color: rgb(248, 242, 242);
+}
+
+.body {
+    width: 100%;
+    background: none;
+    vertical-align:top
+}
+
+.style {
+    width: 19%;
+    display: inline-block;
+    background: none;
+    vertical-align:top
+}
+.style1{
+    background: none;
+    width: 95%;
+    height: 80px;
+    display: block;
+}
+.style a:hover span{
+    background-color: aqua;
+}
+.content {
+    width: 80%;
+    background-color: aliceblue;
+    display: inline-block;
+    vertical-align:top
+
+}
+.main{
+    display: block; 
+
+    border: 5px solid #000 ;
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+.ico{
+    display: inline-block;
+    border: 5px solid #000 ;
+}
+.word{
+    background-color: aquamarine;
+    display: inline-block;
+    width: 90%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 5px solid #000 ;
+}
+.href{
+    float: right;
+    border: 5px solid #000 ;
+}
