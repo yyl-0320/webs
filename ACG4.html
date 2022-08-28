@@ -6,14 +6,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>acg</title>
-    <link href="./css/1.css" rel="stylesheet">
-    <link rel="shortcut icon" href="./ico/yyllogo.ico"> 
+    <link href="./static/css/1.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./static/image/yyllogo.ico"> 
 
 </head>
 
-<body background="./img/ACG .jpg">
+<body background="./static/picture/ACG .jpg">
+    <script>
+        var integer;
+        var integer1;
+        document.onkeydown = function (event) {
+            var e = event || window.event || arguments.callee.caller.arguments[0];
+            if (e && e.keyCode == 38) { // 上
+                integer = 2;
+                integer1 = 1;
+            }
+            if (e && e.keyCode == 38 && integer == 2) { // 上
+                integer1 = integer1 + 1;
+            }
+            if (e && e.keyCode == 40 && integer1 == 2) { // 下
+                integer1 = integer1 + 1;
+            }
+            if (e && e.keyCode == 40 && integer1 == 3) { // 下
+                integer1 = integer1 + 1;
+            }
+            if (e && e.keyCode == 37 && integer1 == 4) { // 左
+                integer1 = integer1 + 1;
+            }
+            if (e && e.keyCode == 39 && integer1 == 5) { // 右
+                integer1 = integer1 + 1;
+            }
+            if (e && e.keyCode == 37 && integer1 == 6) { // 左
+                integer1 = integer1 + 1;
+            }
+            if (e && e.keyCode == 39 && integer1 == 7) { // 右
+                window.open("hiden.html");
+                integer = 0;
+                integer1 = 0;
+            }
+            if (e && e.keyCode != 38 && e && e.keyCode != 40 && e && e.keyCode != 37 && e && e.keyCode != 39)
+             {
+                integer = 9;
+                integer1 = 9;
+            }
+        };
+
+    </script>
     <div class="head">
-        <img class="logo" src="./ico/logo1.ico" alt="logo">
+        <img class="logo" src="./static/image/logo1.ico" alt="logo">
         <ul>
             <li><a href="use1.html">实用</a></li>
             <li><a href="read1.html">阅读</a></li>
