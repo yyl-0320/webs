@@ -5,52 +5,104 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>acg</title>
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+    <title>ACG第一页</title>
     <link href="./static/css/1.css" rel="stylesheet">
     <link rel="shortcut icon" href="./static/image/yyllogo.ico"> 
-
+    <style></style>
+    <script src="./static/js/search.js"></script>
+    <script src="./static/js/enter.js"></script>
 </head>
 
 <body background="./static/picture/ACG .jpg">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./static/image/logo.ico"><img src="./static/image/logo1.ico" style="height: 28px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-bs-toggle="dropdown">
+                      ACG
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="./ACG1.html">第一页</a>
+                      <a class="dropdown-item" href="./ACG2.html">第二页</a>
+                      <a class="dropdown-item" href="./ACG3.html">第三页</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-bs-toggle="dropdown">
+                      study
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="./study1.html">第一页</a>
+                      <a class="dropdown-item" href="./study2.html">第二页</a>
+                      <a class="dropdown-item" href="./study3.html">第三页</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-bs-toggle="dropdown">
+                      free
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="./free1.html">第一页</a>
+                      <a class="dropdown-item" href="./free2.html">第二页</a>
+                      <a class="dropdown-item" href="./free3.html">第三页</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-bs-toggle="dropdown">
+                      use
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="./use1.html">第一页</a>
+                      <a class="dropdown-item" href="./use2.html">第二页</a>
+                      <a class="dropdown-item" href="./use3.html">第三页</a>
+                    </div>
+                  </li>
+            </ul>
+            <form class="d-flex" >
+              <input class="form-control me-2" type="text" placeholder="Search" id="numb">
+              <input class="form-control me-2" type="text" style="display: none;">
+              <button class="btn btn-primary" type="button" onclick="baidu()" id="baidus">baidu</button>
+              <button class="btn btn-primary" type="button" onclick="bing()">bing</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <br>
 
-    <div class="head">
-        <img class="logo" src="./static/image/logo1.ico" alt="logo">
-        <ul>
-            <li><a href="use1.html">实用</a></li>
-            <li><a href="read1.html">阅读</a></li>
-            <li><a href="study1.html">学习</a></li>
-            <li><a href="ACG1.html">ACG</a></li>
-        </ul>
+    <div class="container">
+        
+      <a href="https://www.bilibili.com/" id="a1"><img class="img_1" src="./static/image/bilibili.ico" alt=""><br>bilibili</a>
+      <a href="https://www.dalv666.top/" id="a1"><img class="img_1" src="./static/image/dalv.ico" alt=""><br>dalv</a>
+      <a href="https://omofun.tv/" id="a1"><img class="img_1" src="./static/image/omofun.ico" alt=""><br>omofun</a>
+      <a href="http://www.zzzfun.com/" id="a1"><img class="img_1" src="./static/image/zzzfun.ico" alt=""><br>zzzfun</a>
+      <a href="https://blog.reimu.net/" id="a1"><img class="img_1" src="./static/image/reimu.ico" alt=""><br>reimu</a>
+      <a href="https://18mcy.com/" id="a1"><img class="img_1" src="./static/image/mcy.ico" alt=""><br>mcy</a>
+      <a href="https://fourpetal.com/" id="a1"><img class="img_1" src="./static/image/switch520.ico" alt=""><br>switch520</a>
+      <a href="https://www.age.tv" id="a1"><img class="img_1" src="" alt=""><br>age动漫</a>
+      <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
+      <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
+      <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
+      <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
+      <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
+      <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
+      <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
 
     </div>
-    <div class="body1">
-        <ul>
-            <li><a href="ACG1.html">1</a></li>
-            <li><a href="ACG2.html">2</a></li>
-            <li><a href="ACG3.html">3</a></li>
-            <li><a href="ACG4.html">4</a></li>
-        </ul>
-    </div>
-    <div class="body">
+    <ul class="pagination justify-content-end "  style="float:right;">
+        <li class="page-item  "><a class="page-link" href="./ACG1.html">Previous</a></li>
+        <li class="page-item active"><a class="page-link" href="./ACG1.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="./ACG2.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="./ACG3.html">3</a></li>
 
-        <a href="https://www.bilibili.com/" id="a1"><img class="img_1" src="./static/image/bilibili.ico" alt=""><br>bilibili</a>
-        <a href="https://www.dalv666.top/" id="a1"><img class="img_1" src="./static/image/dalv.ico" alt=""><br>dalv</a>
-        <a href="https://omofun.tv/" id="a1"><img class="img_1" src="./static/image/omofun.ico" alt=""><br>omofun</a>
-        <a href="http://www.zzzfun.com/" id="a1"><img class="img_1" src="./static/image/zzzfun.ico" alt=""><br>zzzfun</a>
-        <a href="https://blog.reimu.net/" id="a1"><img class="img_1" src="./static/image/reimu.ico" alt=""><br>reimu</a>
-        <a href="https://18mcy.com/" id="a1"><img class="img_1" src="./static/image/mcy.ico" alt=""><br>mcy</a>
-        <a href="https://fourpetal.com/" id="a1"><img class="img_1" src="./static/image/switch520.ico" alt=""><br>switch520</a>
-        <a href="https://www.age.tv" id="a1"><img class="img_1" src="" alt=""><br>age动漫</a>
-        <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
-        <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
-        <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
-        <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
-        <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
-        <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
-        <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
-        <div>
-
-
-</body>
+        <li class="page-item"><a class="page-link" href="./ACG2.html">Next</a></li>
+      </ul>
+    </body>
 
 </html>

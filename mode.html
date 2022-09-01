@@ -5,51 +5,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>acg-comic</title>
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+    <title>mode</title>
     <link href="./static/css/1.css" rel="stylesheet">
     <link rel="shortcut icon" href="./static/image/yyllogo.ico"> 
+    <style>
 
+    </style>
 </head>
 
 <body background="./static/picture/ACG .jpg">
-    <div class="head">
-        <img class="logo" src="./static/image/logo1.ico" alt="logo">
-        <ul>
-            <li><a href="use1.html">实用</a></li>
-            <li><a href="read1.html">阅读</a></li>
-            <li><a href="study1.html">学习</a></li>
-            <li><a href="ACG1.html">ACG</a></li>
-        </ul>
+    <script>
+        function baidu() {
+            var x, text;
+            x = document.getElementById("numb").value;
+            text="https://www.baidu.com/s?wd="
+            text=text+x;
+            window.open(text); 
+                        }
+            function bing() {
+            var x, text;
+            x = document.getElementById("numb").value;
+            text="https://www.bing.com/search?q="
+            text=text+x;
+            window.open(text); 
+                        }
+    </script>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./static/image/logo.ico"><img src="./static/image/logo1.ico" style="height: 28px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-bs-toggle="dropdown">
+                      Dropdown link
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Link 1</a>
+                      <a class="dropdown-item" href="#">Link 2</a>
+                      <a class="dropdown-item" href="#">Link 3</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-bs-toggle="dropdown">
+                      Dropdown link
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Link 1</a>
+                      <a class="dropdown-item" href="#">Link 2</a>
+                      <a class="dropdown-item" href="#">Link 3</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-bs-toggle="dropdown">
+                      Dropdown link
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Link 1</a>
+                      <a class="dropdown-item" href="#">Link 2</a>
+                      <a class="dropdown-item" href="#">Link 3</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-bs-toggle="dropdown">
+                      Dropdown link
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Link 1</a>
+                      <a class="dropdown-item" href="#">Link 2</a>
+                      <a class="dropdown-item" href="#">Link 3</a>
+                    </div>
+                  </li>
+            </ul>
+            <form class="d-flex" >
+              <input class="form-control me-2" type="text" placeholder="Search" id="numb">
+              <input class="form-control me-2" type="text" style="display: none;">
+              <button class="btn btn-primary" type="button" onclick="baidu()">baidu</button>
+              <button class="btn btn-primary" type="button" onclick="bing()">bing</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <br>
 
-    </div>       
-     <div class="body1">
-        <ul>
-            <li><a href=".html">1</a></li>
-            <li><a href=".html">2</a></li>
-            <li><a href=".html">3</a></li>
-            <li><a href=".html">4</a></li>
-        </ul>
+    <div class="container">
+        
+
+      <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
+      <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
+      <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
+      <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
+      <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
+      <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
+      <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
+      <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
+      <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
+      <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
+      <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
+      <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
+      <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
+      <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
+
     </div>
-    <div class="body">
-
-        <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
-        <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
-        <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
-        <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
-        <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
-        <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
-        <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
-        <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
-        <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
-        <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
-        <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
-        <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
-        <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
-        <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
-        <a href="#" id="a1"><img class="img_1" src="" alt=""><br></a>
-    <div>
-
-
-</body>
+    <ul class="pagination justify-content-end "  style="float:right;">
+        <li class="page-item  "><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+    </body>
 
 </html>
