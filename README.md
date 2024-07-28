@@ -5,7 +5,7 @@
 |         [打驴动漫](http://dl.myhkw.com/)         |
 |          [omofun](https://omoget.com/)           |
 |         [zzzfun](http://www.zzzfun.one/)         |
-|        [大米星球](https://damiq.online/)         |
+|       [大米星球](https://www.damiv5.com/)        |
 | [age动漫](https://github.com/agefanscom/website) |
 |        [次元城](https://www.cycity.pro/)         |
 |                                                  |
@@ -20,20 +20,21 @@
 |   [灵梦御所](https://blog.reimu.net/)    |
 | [Dlsite](https://www.dlsite.com/maniax/) |
 |       [hanime](https://hanime.tv/)       |
+|  [琉璃神社](https://www.hacg.mov/wp/#)   |
 |                                          |
 
 # ASMR
 
-|                                               |
-| :-------------------------------------------: |
-|   [ASMR Online](https://www.asmr.one/works)   |
-|        [eatASMR](https://eatasmr.com/)        |
-|     [ASMR中心](https://www.asmrgay.com/)      |
-|  [Hentai ASMR](https://www.hentaiasmr.moe/)   |
-|         [RJ之家](https://rjhome.me/)          |
-|  [Japanese ASMR](https://japaneseasmr.com/)   |
-|        [Koe-Koe](https://koe-koe.com/)        |
-| [音声配信](https://otobanana.com/#livestream) |
+|                                                              |
+| :----------------------------------------------------------: |
+| [ASMR Online](https://www.asmr.one/works)，[发布页](https://as.mr/) |
+|               [eatASMR](https://eatasmr.com/)                |
+|             [ASMR中心](https://www.asmrgay.com/)             |
+|          [Hentai ASMR](https://www.hentaiasmr.moe/)          |
+|                 [RJ之家](https://rjhome.me/)                 |
+|          [Japanese ASMR](https://japaneseasmr.com/)          |
+|               [Koe-Koe](https://koe-koe.com/)                |
+|        [音声配信](https://otobanana.com/#livestream)         |
 
 # 游戏
 
@@ -67,14 +68,15 @@
 
 # 实用网站
 
-|                                    |
-| :--------------------------------: |
-|  [源仓库](http://www.yckceo.com/)  |
-|   [不死鸟](https://iui.su/win/)    |
-|   [克隆窝](https://www.uy5.net/)   |
-| [做好图](http://www.zuohaotu.com/) |
-|                                    |
-|                                    |
+|                                          |
+| :--------------------------------------: |
+|     [源仓库](http://www.yckceo.com/)     |
+|      [不死鸟](https://iui.su/win/)       |
+|      [克隆窝](https://www.uy5.net/)      |
+|    [做好图](http://www.zuohaotu.com/)    |
+| [图吧](https://www.tbtool.cn/index.html) |
+|     [微pe](https://www.wepe.com.cn/)     |
+|                                          |
 
 # 学习
 
